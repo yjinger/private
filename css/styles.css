@@ -73,7 +73,7 @@ p {
 /* Headings*/
 .big-heading {
   color: #495464;
-  padding: 21% 4% 8% 0;
+  padding: 21% 4% 12% 0;
   font-size: 2.8rem;
   line-height: 1.5;
 }
@@ -150,11 +150,16 @@ p {
 #services {
   background-color: #fff;
   position: relative;
+  margin-bottom: 6rem;
 }
 
 .section-heading{
   padding-bottom: 2%;
   color:#495464;
+}
+
+.services-subtitle{
+  padding: 0 18%;
 }
 
 .services-box {
@@ -176,12 +181,38 @@ p {
 
 .icon:hover {
   color: #ff9b93;
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
 }
 
-.showme-btn{
-  color: #7fdbda;
-  font-size: 1.2rem;
-  padding: 13px 0px 110px;
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(10deg);}
+  25% {-webkit-transform: rotate(-10deg);}
+  50% {-webkit-transform: rotate(20deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(1deg);}
+  25% {-ms-transform: rotate(-1deg);}
+  50% {-ms-transform: rotate(1.5deg);}
+  75% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
 }
 
 
@@ -198,15 +229,27 @@ p {
   margin: 20px;
 }
 
-.testimonial-text{
+.testimonial-heading{
   font-size: 2rem;
   line-height: 1.5;
   text-align: left;
+  padding: 5% 12% 2%;
+}
+
+.testimonial-text{
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: left;
+  padding: 2% 12%;
 }
 
 .prof{
   text-align: left;
   color: #fff;
+  margin-right: -38%;
+  margin-left: 12%;
+  padding: 2% ;
 }
 
 
