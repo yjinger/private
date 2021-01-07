@@ -97,7 +97,7 @@ p {
 
 /* About-us Section*/
 #about-us{
-  padding: 4% 7%;
+  padding: 4% 8%;
 }
 
 .aboutus-title{
@@ -121,7 +121,7 @@ p {
 /* Services Section */
 #services{
   background-color: #fff;
-  padding: 4% 7%;
+  padding: 13% 7%;
 }
 
 .section-heading{
@@ -254,7 +254,7 @@ p {
 #cta{
   background-color:#fff;
   color: #495464;
-  padding: 7% 7%;
+  padding: 9% 7%;
 
 }
 
