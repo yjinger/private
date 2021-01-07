@@ -4,7 +4,7 @@ body {
 }
 
 .container-fluid {
-  padding: 4% 10%;
+  padding: 4% 7%;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -22,7 +22,7 @@ p {
 }
 
 #title .container-fluid {
-  padding: 0 13% 15%;
+  padding: 0 7% 13%;
 }
 
 .ttt{
@@ -60,8 +60,9 @@ p {
 }
 
 .nav-item {
-  padding: 0 10px;
+  padding: 0 8px;
   font-family: 'Baloo Chettan 2';
+  text-align: right;
 }
 
 .nav-link .nav-button{
@@ -89,19 +90,14 @@ p {
   padding-top: 60px;
 }
 
-
-/* Title Image */
 .title-image {
-  width: 520px;
-  height: 600px;
-  padding: 10% 10% 10% 3%;
-  z-index: -1;
+  width: 90%;
 }
+
 
 /* About-us Section*/
 #about-us{
-  position: relative;
-  margin: 2% 12% 14%;
+  padding: 4% 7%;
 }
 
 .aboutus-title{
@@ -115,36 +111,17 @@ p {
   line-height: 1.5;
   text-align: left;
   color:#495464;
-  font-size: 20px;
-  width: 540px;
+  font-size: 1.3rem;
 }
 
 .introduction-image{
-  width: 400px;
-  height: 350px;
-  position: absolute;
-  top: 14%;
-  left: 1%;
-  z-index: -1;
-  animation-name: eggs;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
+  width: 80%;
 }
 
-@keyframes eggs{
-   0% {width: 400px; height:350px;transform: rotate(0deg);}
-  25% {width: 450px; height:400px;transform: rotate(180deg);}
-  50% {width: 500px; height:460px;transform: rotate(360deg);}
-  75% {width: 450px; height:400px;transform: rotate(540deg);}
-  100% {width: 400px; height:350px;transform: rotate(720deg);}
-}
-
-
-/* Services Section*/
-#services {
+/* Services Section */
+#services{
   background-color: #fff;
-  position: relative;
-  margin-bottom: 6rem;
+  padding: 4% 7%;
 }
 
 .section-heading{
@@ -214,7 +191,6 @@ p {
 #testimonials {
   background-color: #7fdbda;
   color: #ffff;
-  height: 600px;
 }
 
 .testimonial-heading{
@@ -242,6 +218,7 @@ p {
 .testimonial-text3{
   color: #fff;
   font-size: 1.2rem;
+  line-height: 1.5;
   text-align: left;
   padding: 0% 14%;
 }
@@ -250,6 +227,7 @@ p {
 /* Press Section */
 #press{
   background-color: #7fdbda;
+  padding: 4% 7%;
 }
 
 .prof{
@@ -263,13 +241,12 @@ p {
   font-size: 1.3rem;
   text-align: center;
   color: #fff;
-padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .press-image {
   height: 200px;
   border-radius: 100%;
-
 }
 
 
@@ -277,39 +254,37 @@ padding-top: 2rem;
 #cta{
   background-color:#fff;
   color: #495464;
-  height: 560px;
-  margin-top: 8%;
-  margin-bottom: 10%;
+  padding: 7% 7%;
+
 }
 
 .contact-image{
-  width: 390px;
-  padding: 5% 8% 6% 4%;
+  width: 70%;
 }
 
 .cta-heading{
   text-align: left;
   font-size: 3rem;
-  line-height: 1.5;
-  padding-top: 6%;
-  padding-bottom: 27px;
+  line-height: 2.5;
 }
 
 .contact-text{
   font-size: 1.2rem;
   text-align: left;
-  padding: 5px;
   vertical-align:top;
+  padding-bottom: 2%;
 }
 
 
-/* footer Section*/
+/* footer Section */
 #footer{
   background-color: #7fdbda;
   color:#fff;
+  height: 100px;
 }
 
 .footer-text{
   color:#fff;
   font-size: 1rem;
+  text-align: left;
 }
