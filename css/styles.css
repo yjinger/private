@@ -220,12 +220,12 @@ p {
 
 /* Press Section */
 #press{
-  padding: 4% 4%;
+  padding: 4% 12%;
 }
 
 .prof-image{
-  height: 220px;
-  width: 160px;
+  height: 240px;
+  width: 190px;
   border-radius: 100%;
   padding: 0% 1% 20%;
 }
@@ -234,8 +234,8 @@ p {
   text-align: left;
   font-size: 1rem;
   color: #495464;
-  padding-left: 2rem;
-  padding-right: 3rem;
+  padding-left: 8rem;
+  padding-right: 6rem;
 }
 
 .prof-title{
@@ -243,12 +243,13 @@ p {
   text-align: left;
   color: #495464;
   padding-top: 2rem;
-  padding-left: 2rem;
+  padding-left: 8rem;
 }
+
 
 .profLink{
   padding-bottom: 7%;
-  padding-left: 2rem;
+  padding-left: 8rem;
 }
 
 
